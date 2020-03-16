@@ -20,5 +20,6 @@ Project.init(
 );
 
 Project.hasMany(Item);
+Item.belongsTo(Project);
 
 module.exports.Project = Project;
